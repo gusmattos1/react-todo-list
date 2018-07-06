@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-
 import './App.css';
 
-calss Mylist extends Component {
+class ListItem extends Component {
 
   render() {
     return(
-
+          <li>{this.props.doThis}</li>
     )
   }
 }
 
-export default Mylist;
+export default ListItem;
